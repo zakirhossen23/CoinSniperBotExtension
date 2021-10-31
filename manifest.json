@@ -1,0 +1,24 @@
+{
+    "name": "CoinSniperBot",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["js/content.js"],
+        "run_at": "document_end"
+    }],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "permissions": [
+        "webRequest",
+        "cookies"
+    ],
+    "action": {
+        "default_title": "CoinSniper Bot",
+        "default_popup": "html/popup.html"
+
+    }
+}
