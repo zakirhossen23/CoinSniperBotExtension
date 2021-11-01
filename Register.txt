@@ -1,0 +1,18 @@
+await fetch("https://coinsniper.net/register", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-User": "?1"
+    },
+    "referrer": "https://coinsniper.net/register",
+    "body": "_token=JuxBKFn00TQ0R5dWlRdIEgf2mmMSnxMeteTp0PE3&name=zakirtesting&email=cjdakqitae%40metalunits.com&password=zakir%25%25%24&password_confirmation=zakir%25%25%24",
+    "method": "POST",
+    "mode": "cors"
+});
